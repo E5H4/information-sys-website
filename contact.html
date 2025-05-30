@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Information Systems Department, Monte Ahuja Business College, Cleveland State University</title>
+        <link rel="stylesheet" href="styles.css">
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <img src="images/csu-logo-white.png" alt="csu logo" id="logo">
+            <h1>INFORMATION SYSTEMS DEPARTMENT<br><span>MONTE AHUJA BUSINESS COLLEGE, CLEVELAND STATE UNIVERSITY</span> </h1>
+            <form id="search-form" action="#" method="get">
+                <input type="text" id="search-input" name="query" placeholder="Search">
+                <button type="submit">🔍</button>
+            </form>
+        </header>
+
+        <!--menu-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="degree-programs.html">Degree Programs</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="faculty.html">Faculty</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!--main starts here-->
+        
+        <main class="content-wrapper">
+            <h2>Get in Touch</h2>
+
+            <section class="contact-form">
+                <form id="contactForm" method="post" action="thank-you.html">
+                    <label for="name">Name<span>*</span></label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email<span>*</span></label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message<span>*</span></label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <button type="submit">Send Message</button>
+
+                </form>
+            </section>
+
+            <section class="contact-info">
+                <h3>Contact Information</h3>
+                <p>BU344, 1864 E. 18th St.</p>
+                <p>Cleveland, OH 44115</p>
+                <p>Email: <a href="mailto:information_systems@cusohio.edu">information_systems@cusohio.edu</a></p>
+                <p>Phone: 216-687-4760</p>
+                <h4>Find CSU on the Map!</h4>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2937.301359812712!2d-81.6751384845312!3d41.502078779253556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8830fb7b6fd4f64b%3A0x6767f9eb7f94c0f9!2sCleveland%20State%20University!5e0!3m2!1sen!2sus!4v1618953091849!5m2!1sen!2sus"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-wrapper">
+                <div class="footer-contact">
+                    <img src="images/csu-logo-white.png" alt="csu logo" id="footer-logo">
+                    <p>
+                        Cleveland State University<br>
+                        2121 Euclid Avenue<br>
+                        Cleveland, Ohio 44115<br>
+                        (216) 687-2000
+                    </p>
+                </div>
+        
+                <div class="footer-links centered-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="degree-programs.html">Degree Programs</a></li>
+                            <li><a href="courses.html">Courses</a></li>
+                            <li><a href="faculty.html">Faculty</a></li>
+                            <li><a href="admissions.html">Admissions</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="footer-bottom">
+                <p>Web Master: Esha Attiq</p>
+                CSU Department of Information Systems © 2025 All Rights Reserved
+            </div>
+        </footer>
+
+        </body>
+    </html>
+    

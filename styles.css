@@ -1,0 +1,487 @@
+
+/* most of index main page*/
+
+body {
+    
+  font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+/* search*/
+
+#search-form {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+#search-input {
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #ccc;
+}
+
+#search-form button {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  background-color: #69BE28; 
+  color: white;
+  cursor: pointer;
+}
+
+#search-form button:hover {
+  background-color: #006A4D; 
+}
+
+header {
+    position: sticky;
+    top:0;
+    z-index: 1000;
+    background-color: #006A4D; 
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  header img#logo {
+    height: 60px;
+  }
+  
+  header h1 {
+    /*font-family: 'Georgia', serif;*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    margin: 0;
+  }
+
+  main.content-wrapper h2 { /* h2 heading on all pages as Georgia font*/
+    font-family: Georgia, serif;
+      font-size: 1.6em;
+      color: #000000;
+  
+  }
+  
+
+  nav {
+    position: fixed; /* keeps nav bar on screen while scrolling*/
+    top: 40;
+    left: 0;
+    width: 100%;
+    background-color: #69BE28; 
+    padding: 15px 40px; /* top/bottom,left/right */
+    z-index: 1000;
+}
+
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  main {
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 0 20px;
+  }
+  
+ 
+  #hero img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  #hero h2 {
+    font-family: Georgia, serif;
+    font-size: 1.6em;
+    color: #00573f;
+  }
+  
+
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h3 { /*all headings across pages*/
+    /*font-family: Georgia, serif;*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6em; 
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    color: #006A4D;
+  }
+  
+
+  .link-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .btn {
+    background-color: #006A4D;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #006A4D;
+  }
+
+  main.content-wrapper {
+    margin-top: 100px;
+  }
+  
+  div.content-wrapper{
+    margin-top:100px;
+  }
+
+
+
+/* degree programs images stylings*/
+
+.program {
+    margin-bottom: 40px;
+}
+
+.program-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.image-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.image-grid img {
+    width: 45%; /* each image takes up about a third of the row */
+    max-width: none;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/*courses tables stylings*/
+
+.course-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.course-table thead{
+    color: #ffffff;
+}
+.course-table th, .course-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+.course-table th {
+    background-color: #006A4D;
+    font-weight: bold;
+}
+
+.course-table tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+/*courses image stylings*/
+
+.gallery-section {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.gallery-section h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.gallery-section p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.image-gallery figure {
+  width: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: white;
+  transition: transform 0.3s ease;
+}
+
+.image-gallery figure:hover {
+  transform: scale(1.05);
+}
+
+.image-gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-gallery figcaption {
+  padding: 0.75rem;
+  font-size: 0.9rem;
+  color: #333;
+  background-color: #fff;
+}
+
+/*faculty styling images and bio unhidden/hidden */
+.faculty-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+
+.faculty-people p {
+    text-align: center;
+    display: block;
+    margin: 8px 0;
+}
+
+.faculty-people strong {
+    display: block;
+    font-weight: bold;
+}
+
+.bio {
+  margin-top: 10px;
+  background-color: #f3f3f3;
+  padding: 10px;
+  border-radius: 5px;
+  transition: max-height 0.3s ease;
+}
+
+.hidden {
+  display: none;
+}
+
+.toggle-bio {
+  cursor: pointer;
+  color: #69BE28;
+}
+
+.toggle-bio:hover {
+  color: #006A4D;
+}
+
+
+main.content-wrapper h5 {
+  font-size: 0.9em;
+  color: #006A4D;
+  font-style: italic;
+  margin: 5px 0;
+}
+
+/* admissions page styling for image and button*/
+
+.apply-image-container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    height: 200px; 
+    margin: 30px auto;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .apply-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    opacity: 0.7;
+  }
+  
+  .apply-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #007a57;
+    padding: 12px 24px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+  }
+  
+  .apply-btn:hover {
+    background-color: #004d2c;
+  }
+
+  /* form for contacts styling*/
+
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 20px auto;
+    gap: 15px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .contact-info {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    line-height: 1.6;
+  }
+  
+  .contact-info a {
+    color: #007a57;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+
+
+
+/* footer styling*/
+
+footer {
+  background-color: #006A4D;
+  color: white; 
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 0.9em;
+  font-family: Arial, sans-serif;
+  margin-top: 40px;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-contact {
+    flex: 1 1 300px;
+    margin-right: 40px;
+}
+
+.footer-contact p {
+    line-height: 1.6;
+}
+
+.footer-links {
+    flex: 1 1 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-column {
+    text-align: center;
+}
+
+.footer-column h4 {
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-size: 1.1em;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin: 6px 0;
+}
+
+.footer-column ul li a {
+    color: #FAC747;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+    font-size: 0.9em;
+}
+
+.footer-bottom a {
+    color: #9dcf2a;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+#footer-logo { /* fixed sizing of csu logo*/
+  width: 300px;
+  height: auto;
+}
