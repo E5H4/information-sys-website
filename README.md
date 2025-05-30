@@ -29,20 +29,20 @@ Editor Used (and Sources)
 
 
 - Sources I used from outside the lectures/cengage:
-* css
+   * css
     https://www.w3schools.com/css/default.asp
-* nav using ul
+   * nav using ul
     https://kyleschaeffer.com/navigation-using-unordered-lists
-* photos used from CSU flickr
+   * photos used from CSU flickr
     https://www.flickr.com/photos/csumarketing/albums/
-* brand guidelines of colors & fonts
+   * brand guidelines of colors & fonts
     https://www.csuohio.edu/sites/default/files/CSU_Brand-Guidelines_01-2023.pdf
-* how to embed google maps
+   * how to embed google maps
     https://developers.google.com/maps/documentation/embed/get-started
     https://www.w3schools.com/html/html_iframe.asp
-*figure image gallery
+   * figure image gallery
     https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/figcaption
-* fake profile picture creator for faculty
+   * fake profile picture creator for faculty
     https://this-person-does-not-exist.com/en
     
 
