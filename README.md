@@ -1,6 +1,6 @@
 # Information Systems Department Website
 
-Powerpoint slides showcasing each page: IST 450 FIN PROJECT.pptx
+[Powerpoint showcasing pages for Information Systems Dept. Website ](https://github.com/E5H4/information-sys-website/blob/master/IST%20450%20FIN%20PROJECT.pptx)
 
 Design Approach
 ---------------
