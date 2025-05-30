@@ -1,5 +1,6 @@
 # Information Systems Department Website
 
+Powerpoint slides showcasing each page: IST 450 FIN PROJECT.pptx
 
 Design Approach
 ---------------
